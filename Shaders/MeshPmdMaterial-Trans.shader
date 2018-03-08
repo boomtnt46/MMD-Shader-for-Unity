@@ -19,15 +19,15 @@ Shader "MMD/Transparent/PMDMaterial"
 {
 	Properties
 	{
-		_Color("拡散色", Color) = (1,1,1,1)
-		_Opacity("不透明度", Float) = 1.0
-		_SpecularColor("反射色", Color) = (1,1,1)
-		_AmbColor("環境色", Color) = (1,1,1)
-		_Shininess("反射強度", Float) = 0
-		_MainTex("テクスチャ", 2D) = "white" {}
-		_ToonTex("トゥーン", 2D) = "white" {}
-		_SphereAddTex("スフィア（加算）", 2D) = "black" {}
-		_SphereMulTex("スフィア（乗算）", 2D) = "white" {}
+		_Color("Diffuse", Color) = (1,1,1,1)
+		_Opacity("Opacity", Float) = 1.0
+		_SpecularColor("Specular", Color) = (1,1,1)
+		_AmbColor("Enviroment", Color) = (1,1,1)
+		_Shininess("Shininess", Float) = 0
+		_MainTex("Texture", 2D) = "white" {}
+		_ToonTex("Toon Texture", 2D) = "white" {}
+		_SphereAddTex("Sphere (Addition)", 2D) = "black" {}
+		_SphereMulTex("Sphere (multiplication)", 2D) = "white" {}
 	}
 
 	SubShader
