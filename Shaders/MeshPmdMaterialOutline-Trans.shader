@@ -19,17 +19,17 @@ Shader "MMD/Transparent/PMDMaterial-with-Outline"
 {
 	Properties
 	{
-		_Color("拡散色", Color) = (1,1,1,1)
-		_Opacity("不透明度", Float) = 1.0
-		_SpecularColor("反射色", Color) = (1,1,1)
-		_AmbColor("環境色", Color) = (1,1,1)
-		_Shininess("反射強度", Float) = 0
-		_OutlineColor("エッジ色", Color) = (0,0,0,1)
-		_OutlineWidth("エッジ幅", Range(0,1)) = 0.2
-		_MainTex("テクスチャ", 2D) = "white" {}
-		_ToonTex("トゥーン", 2D) = "white" {}
-		_SphereAddTex("スフィア（加算）", 2D) = "black" {}
-		_SphereMulTex("スフィア（乗算）", 2D) = "white" {}
+		_Color("Diffuse", Color) = (1,1,1,1)
+		_Opacity("Opacity", Float) = 1.0
+		_SpecularColor("Specular", Color) = (1,1,1)
+		_AmbColor("Ambient", Color) = (1,1,1)
+		_Shininess("Shininess", Float) = 0
+		_OutlineColor("Outline Color", Color) = (0,0,0,1)
+		_OutlineWidth("Outline Width", Range(0,1)) = 0.2
+		_MainTex("Main Texture", 2D) = "white" {}
+		_ToonTex("Toon Texture", 2D) = "white" {}
+		_SphereAddTex("Sphere (addition)", 2D) = "black" {}
+		_SphereMulTex("Sphere (multiplication)", 2D) = "white" {}
 	}
 
 	SubShader
