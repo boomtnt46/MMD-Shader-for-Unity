@@ -22,7 +22,7 @@ Shader "MMD/Transparent/PMDMaterial"
 		_Color("Diffuse", Color) = (1,1,1,1)
 		_Opacity("Opacity", Float) = 1.0
 		_SpecularColor("Specular", Color) = (1,1,1)
-		_AmbColor("Enviroment", Color) = (1,1,1)
+		_AmbColor("Ambient", Color) = (1,1,1)
 		_Shininess("Shininess", Float) = 0
 		_MainTex("Texture", 2D) = "white" {}
 		_ToonTex("Toon Texture", 2D) = "white" {}
